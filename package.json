@@ -12,7 +12,8 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
     "sst:deploy": "sst deploy",
-    "sst:dev": "sst dev"
+    "sst:dev": "sst dev",
+    "build": "[my-framework] build --output public"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
